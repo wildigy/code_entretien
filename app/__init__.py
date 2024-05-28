@@ -27,7 +27,7 @@ def create_app():
 
     api = Api(
         root_bp,
-        title="API euler-monitor",
+        title="API code_entretien",
         version="1.0.0",
         description="Documentation api for code_entretien.",
         validate=True
