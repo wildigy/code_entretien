@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='open_info/open_info.css')}}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Current Open Status</title>
+</head>
+<body class="full-height">
+    <div class="div-table">
+        <div class="div-table-row" id="div-title">
+            <div id="div-period-date">
+                <b>{{ titleText }}</b>
+                <h1><b>{{ wantedInfo }}</b></h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
